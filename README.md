@@ -1,6 +1,6 @@
 # Wiimote-Pad
 
-This is a small tool to use a Wiimote as a gamepad.
+This is a small tool to use a Wiimote or a Nintendo Wii Classic Controller as a gamepad.
 
 ## Introduction
 
@@ -21,7 +21,7 @@ to make use of the library, this still doesn't allow an ‘out of the box’
 experience.
 
 The purpose of this tool is to allow any application to use a Wiimote
-—held sideways— as if it were a standard gamepad.
+—held sideways— or a Nintendo Wii Classic Controller as if it were a standard Linux gamepad.
 
 ## Usage
 
@@ -43,7 +43,7 @@ associate with and use that.
 
 ### Note
 
-`wiimote-pad` is _specifically_ designed to expose the sideways Wiimote
+`wiimote-pad` is _specifically_ designed to expose the sideways Wiimote or the Nintendo Wii Classic Controller
 as a gamepad. All other Wiimote uses (especially the ones involving
 the infrared (IR) sensor) are outside of its scope. Please refer to the
 `xwiimote` and `xf86-input-wiimote` projects for those.
